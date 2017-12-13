@@ -1,4 +1,4 @@
-"""Flatten"""
+"""project"""
 def all_months():
     """create list of all months"""
     years = [str(i) for i in range(2012, 2018)]
@@ -10,7 +10,7 @@ def all_months():
     return all_months
 
 def main():
-    """Flatten"""
+    """data analysis"""
     import pandas as pd
     from numpy import array as np
     import pygal
